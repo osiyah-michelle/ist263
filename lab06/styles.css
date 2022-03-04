@@ -1,0 +1,14 @@
+/*
+body {background-color: rgb(255, 255, 52);}
+
+p {color: brown;}
+.week6 {color:forestgreen;}
+*/
+
+body {font-family: Georgia, 'Times New Roman', Times, serif ;}
+h1, h2 {color: chartreuse;}
+.caption {color: rgb(234, 250, 8);}
+.badbitch{color: crimson;}
+.evenrow{background-color: purple;}
+h1 {font-size: 2.9em}
+h2 {font-size: 1.5em}
