@@ -1,0 +1,20 @@
+body {background-color: #BDFFAE;}
+p {background-color: •	#000000;}
+a {background-color: #FFADBA;}
+ /*.nav1 {background-color: #BCADFF;} */
+nav  {background-color: #FFD79E; 
+    border:10px solid red; 
+    background-color: cadetblue;
+    padding: 10px;  /*space inside the border */
+    margin-bottom: 30px;
+}
+nav a:hover {background-color: #98C43F;}
+
+/* h1, h2 {color: chartreuse;} */
+
+.caption {color: rgb(234, 250, 8);}
+.badbitch{color: crimson;}
+.evenrow{background-color: purple;}
+h1 {font-size: 2.9em}
+h2 {font-size: 1.5em}
+.try {display: flex;}
