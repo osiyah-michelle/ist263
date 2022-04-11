@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Tamil&display=swap" rel="stylesheet">
+</head>
+
+<style>
+
+nav  {
+       /* background-color: #FFD79E; 
+        border:10px solid red; */
+        background-color: white;
+        padding: 10px;  /*space inside the border */
+        margin-bottom: 30px;
+        text-align: end;
+        border: black solid 1px; border-radius: 1.0em;
+       
+    }
+
+    nav a
+    {
+       font-size: 20px;
+       
+    }
+    .nav1 {
+        display: flex;
+        justify-content: space-around;
+        color: black;
+      
+    }
+
+    nav a:hover {
+        background-color: chocolate;
+    }
+    
+    p
+    { 
+           font-family: 'Anek Tamil', sans-serif;
+       }
+
+.getinvolved {display: flex; padding: 10px;}
+
+.getinvolved div{
+margin: 20px;
+}
+
+.form1{
+ width: 100%;
+
+}
+
+
+</style>
+
+<body>
+
+    <nav class="nav1">
+        <a href="home.html">Home</a> |
+        <a href="impact.html">Impact</a> |
+        <a href="getinvolved.html">Get Involved</a> |
+     
+    </nav>
+
+
+    <div class="getinvolved">
+
+            <div class="form1">
+                <h1>Get Involved</h1>
+                <form action="https://formspree.io/f/mwkyobdb" method="post">
+
+                    <label for="fullname">Full Name</label> <br>
+                    <input type = "text" id="fullname" name="fullname"> <br>
+
+                    <label for="email">Email</label> <br>
+                    <input type = "email" id="email" name="email"> <br>
+
+                    <label for="Phone">Phone Number</label> <br>
+                    <input type = "tel" id="phone" name="tel"> <br>
+
+                    <label for="time">How would you like to be involved with us</label>
+                    <select id="time" name="time">
+                        <option value="pick">Select</option>
+                        <option value="Volunteer Opportunities">Volunteer Opportunities</option>
+                        <option value="GetUpdates">Stay In Touch</option>
+                        <option value="both">both</option>
+                    </select> <br>
+                    <label for="more">Tell us more about yourself</label> <br>
+                
+                    <textarea name="more" id="more"></textarea> <br>
+                
+                    <input type="submit" value="send Feedback"> <br>
+                
+                </form>
+            </div>
+
+            <div>
+                <h1>Donate</h1>
+
+                <p>The success of this project depends on the generosity of our donors. The funds will be used to recharge wrist bands for students who are in dire need of the funding. We grateful for your commitment to ensure that every child gets a well rounded education by easing travel means. Thank you for your support </p>
+
+                <a href="M-pesa">M-pesa</a> |
+                <a href="Credit">Credit/Debit</a> |
+                <a href="Venmo">Venmo</a> |
+                <a href="CashApp">Cashapp</a> |
+                <a href="gofundme">Go Fund me</a> |
+               
+
+            </div>
+
+
+    </div>
+    
+</body>
+</html>
