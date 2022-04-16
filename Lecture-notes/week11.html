@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesibility</title>
+<style>
+
+
+    /*
+    Skip to content
+    1. html link that says skip to content
+    2. need an ancor tag
+    3. syle the tag
+    4. hide and show it
+    
+    */
+    #skip{ /* used with ids*/
+        position: absolute;
+        left: -999px;
+        background-color: orangered;
+        padding: 5px;
+    }
+
+    #skip:focus{
+
+        left: 10px;
+    }
+</style>
+
+</head>
+<body>
+<nav>
+        <a href="#maindatas" id="skip">Skip to content</a>
+        <a href="index.html" tabindex="1">Home</a>
+        <a href="skills.html" tabindex="2">Skills</a>
+        <a href="contact.html" tabindex="3">Contact</a>
+        <a href="twitter.html" tabindex="4">Twitter</a>
+</nav>
+
+  <h1>Accesibility</h1> <!--only one of the h1 header per page-->
+
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad dolores dolore minima perferendis recusandae accusantium nisi praesentium totam id nesciunt nam at impedit earum in, corrupti repudiandae soluta maiores quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa at sint itaque necessitatibus voluptatum optio, laudantium inventore nisi aperiam reprehenderit modi soluta non magnam quaerat vel qui officiis! Placeat, reiciendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eius dignissimos est optio ipsam, et totam architecto molestiae, explicabo tempora itaque hic eaque qui. Non ut dolorum in doloribus ipsum.
+  </p>
+  <h2>Tab order</h2>
+  <h3>Semantic Tag</h3>
+    
+        <h3>side tag</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad dolores dolore minima perferendis recusandae accusantium nisi praesentium totam id nesciunt nam at impedit earum in, corrupti repudiandae soluta maiores quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa at sint itaque necessitatibus voluptatum optio, laudantium inventore nisi aperiam reprehenderit modi soluta non magnam quaerat vel qui officiis! Placeat, reiciendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eius dignissimos est optio ipsam, et totam architecto molestiae, explicabo tempora itaque hic eaque qui. Non ut dolorum in doloribus ipsum.
+        <h3>article</h3>
+
+        <p id="maindatas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad dolores dolore minima perferendis recusandae accusantium nisi praesentium totam id nesciunt nam at impedit earum in, corrupti repudiandae soluta maiores quam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa at sint itaque necessitatibus voluptatum optio, laudantium inventore nisi aperiam reprehenderit modi soluta non magnam quaerat vel qui officiis! Placeat, reiciendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe eius dignissimos est optio ipsam, et totam architecto molestiae, explicabo tempora itaque hic eaque qui. Non ut dolorum in doloribus ipsum.
+
+
+
+    
+
+
+
+
+</body>
+</html>
