@@ -2,9 +2,10 @@ body {background-color: #BDFFAE;}
 p {background-color: •	#000000;}
 a {background-color: #FFADBA;}
  /*.nav1 {background-color: #BCADFF;} */
-nav  {background-color: #FFD79E; 
+nav  {
+    color: white;
     border:10px solid red; 
-    background-color: cadetblue;
+    background-color: black;
     padding: 10px;  /*space inside the border */
     margin-bottom: 30px;
 }
