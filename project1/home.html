@@ -14,14 +14,29 @@
        /* background-color: #FFD79E; 
         border:10px solid red; */
 
-        background-color: white;
+        background-color: black;
         padding: 10px;  /*space inside the border */
         margin-bottom: 30px;
         text-align: end;
-        border: black solid 1px; border-radius: 1.0em;
+        border: black solid 1px; border-radius: 0.5em;
+         
        
     }
 
+    section {
+
+        border: 1px solid black;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #theissue{
+
+        background-image: url("images/easycoach.jpg")
+    
+    }
+    
+    
     nav a
     {
        font-size: 20px;
@@ -30,8 +45,8 @@
     .nav1 {
         display: flex;
         justify-content: space-around;
-        color: black;
-       
+        color: white;
+       text-decoration-style: none;
     }
 
     nav a:hover {
@@ -51,7 +66,9 @@
         }
         td, th {border: 1px solid black;}   
 
-        .part1 {display: flex; padding: 10px;}
+        .part1 {display: flex; padding: 10px; 
+        
+    }
 
         .part1 div{
             margin: 20px;
@@ -66,7 +83,7 @@
         }
 
         .part2{
-            display: flex; padding: 10px;        }
+            display: flex; padding: 10px;    }
 
         .part2 div {margin: 20px;}
 
@@ -79,22 +96,43 @@
         
         .picture {max-width: 100%;
         justify-content: center;}
+
+        @media only screen and (max-width: 600px)
+            {
+                body {background-color: orange;}
+                
+                section div{
+
+                    flex-wrap: wrap;
+                }
+                
+                .banner{display: none;}
+
+            }
+
+        
     </style>
 
     
 </head>
 <body>
     <nav class="nav1">
-        <a href="home.html">Home</a> |
-        <a href="impact.html">Impact</a> |
-        <a href="getinvolved.html">Get Involved</a> |
+        <a href="#theissue">Issue</a> |
+        <a href="#thesolution">Solution</a> |
+        <a href="#tap2school">Tap 2 School</a>
+        <a href="#theimpact">Impact</a> |
+        <a href="#getinvolved">Get Involved</a> |
+        <a href="#donate">Donate</a>|
+        
      
     </nav>
     <header>
         <img src="../project/images/new-head.png" alt="pictureinbio" class="picture"> <br>
     </header>
 
-<div class="part1">
+<section id="theissue">
+
+
     <div class="issue">      
     <h1>The Issue</h1>
     <p class="issue1"> 
@@ -127,9 +165,11 @@
         </tr>
     </table>
     </div>
-</div>
 
-<div class="part2">
+</section>
+
+<section id="thesolution">
+
 
     <div class="sol1"> 
         
@@ -146,9 +186,113 @@
 
 
 
+</section>
+
+<section id="theimpact">
+
+    <div class="part1">
+
+        <div class="impact0">
+            
+    
+                <img src="images/groupwalk.jpg" alt="pictureinbio" class="picture"> <br>
+
+        </div>
+
+        <div class="impact1">
+                <h1>Impact</h1>
+        <p>
+            Students are able to make smooth commutes to and from school
+        <p>
+
+        <p>
+            It is safe
+        </p>
+
+        <p>
+            Funds are well utilized and not lost
+        </p>
+
+        </div>
+</div>
+
+</section>
+
+<section id="tap2school">
+
+<div class="part2">
+
+   
+    <div class="impact">
+            <h1>Tap 2 School</h1>
+
+            <p>
+
+            Tap4School is a digital mobile platform that uses cutting edge FinTech to enable public primary school children to access school easily and on time.
+            Parents pay for the subsidized fares using mobile money. 
+
+            </p>
+   
+    </div>
+    <div class="tap2School">
+        
+
+        <img src="images/KCSE.jpg" alt="pictureinbio" class="picture"> <br>
+
+         </div>  
 </div>
 
 
+</section>
+
+<section id="getinvolved">
+
+    <div class="getinvolved">
+
+        <div class="form1">
+            <h1>Get Involved</h1>
+            <form action="https://formspree.io/f/mwkyobdb" method="post">
+
+                <label for="fullname">Full Name</label> <br>
+                <input type = "text" id="fullname" name="fullname"> <br>
+
+                <label for="email">Email</label> <br>
+                <input type = "email" id="email" name="email"> <br>
+
+                <label for="phone">Phone Number</label> <br>
+                <input type = "tel" id="phone" name="tel"> <br>
+
+                <label for="time">How would you like to be involved with us</label>
+                <select id="time" name="time">
+                    <option value="pick">Select</option>
+                    <option value="Volunteer Opportunities">Volunteer Opportunities</option>
+                    <option value="GetUpdates">Stay In Touch</option>
+                    <option value="both">both</option>
+                </select> <br>
+                <label for="more">Tell us more about yourself</label> <br>
+            
+                <textarea name="more" id="more"></textarea> <br>
+            
+                <input type="submit" value="send Feedback"> <br>
+            
+            </form>
+        </div>
+    </div>
+</section>
+<section id="donate">
+        <div>
+            <h1>Donate</h1>
+
+            <p>The success of this project depends on the generosity of our donors. The funds will be used to recharge wrist bands for students who are in dire need of the funding. We grateful for your commitment to ensure that every child gets a well rounded education by easing travel means. Thank you for your support </p>
+
+            <a href="M-pesa">M-pesa</a> |
+            <a href="Credit">Credit/Debit</a> |
+            <a href="Venmo">Venmo</a> |
+            <a href="CashApp">Cashapp</a> |
+            <a href="gofundme">Go Fund me</a> |
+           
+        </div>
+</section>
 
 </body>
 
