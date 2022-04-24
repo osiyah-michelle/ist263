@@ -54,7 +54,7 @@ ul {
         height:200px;
         overflow:hidden;
       }
-      div.slide-up p {
+      div.slide-up h1 {
         animation: 3s slide-up;
         margin-top:0%;
         color: yellow;
