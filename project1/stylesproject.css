@@ -57,7 +57,7 @@ ul {
       div.slide-up p {
         animation: 3s slide-up;
         margin-top:0%;
-        color: rgb(231, 52, 52);
+        color: yellow;
         font-size: 10em;
         text-align: center;
         
