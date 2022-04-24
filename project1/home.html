@@ -5,11 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="stylesproject.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anek+Tamil&display=swap" rel="stylesheet">
-    <style>
+    <script src="https://kit.fontawesome.com/0036a784f4.js" crossorigin="anonymous"></script>
+<!--
 
+<style>
+
+#animate1{
+
+    background-image: url(../images/walking-to-school-2013.jpg);
+}
+
+input
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input:focus {
+
+    background-color: lightblue;
+}
+textarea
+{
+
+    transition: width 0.4s ease-in-out;
+    width: 80%;
+    height: 200px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    }
+
+textarea:focus
+{
+
+    width: 100%
+}
+
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 30%;
+ align-items: center;
+}
+
+.donate
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.donate div{
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid red;
+}
+
+.donate1{
+
+    transition: width 2s linear 1s;
+}
+.donate1:hover
+{
+    width: 300px;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+tr:hover {background-color: coral;}
     nav  {
        /* background-color: #FFD79E; 
         border:10px solid red; */
@@ -109,13 +197,12 @@
                 .banner{display: none;}
 
             }
-
-        
-    </style>
-
+ </style>
+-->
     
 </head>
 <body>
+     <!--
     <nav class="nav1">
         <a href="#theissue">Issue</a> |
         <a href="#thesolution">Solution</a> |
@@ -123,17 +210,38 @@
         <a href="#theimpact">Impact</a> |
         <a href="#getinvolved">Get Involved</a> |
         <a href="#donate">Donate</a>|
-        
-     
     </nav>
-    <header>
+-->
+
+        <ul>
+        <li><a href="#theissue">Issue</a> </li>
+        <li> <a href="#thesolution">Solution</a> </li>
+        <li> <a href="#tap2school">Tap 2 School</a> </li>
+        <li> <a href="#theimpact">Impact</a> </li> 
+        <li><a href="#getinvolved">Get Involved</a></li>
+        <li> <a href="#donate">Donate</a></li>
+        </ul>
+<!--
+  
+        <header>
         <img src="../project/images/new-head.png" alt="pictureinbio" class="picture"> <br>
     </header>
 
+-->
+
+<section id="animate1">
+
+
+    <div class="slide-up">
+        <p><b>Tap 2 School </b></p>
+
+        </div>
+
+</section>
 <section id="theissue">
 
-
-    <div class="issue">      
+<div class="issue">
+    <div class="issue1">      
     <h1>The Issue</h1>
     <p class="issue1"> 
         Many children in Africa are desperate to go to school and learn how  to read and write. But most of the students cannot because they lack funding. With parents already burdened with school fees and parents have to reprioritize the family needs.
@@ -144,8 +252,8 @@
     </p>
     </div>
 
-    <div class="tdata">
-    <table style="width: 50%;"> 
+    <div class="issue2">
+    <table style="width: 100%;"> 
         <caption class="caption">Statistics : Student commute means to School</caption>
         <tr class="columns">
             <th>Children Under 15 Years Age</th>
@@ -165,12 +273,11 @@
         </tr>
     </table>
     </div>
-
+</div>
 </section>
 
 <section id="thesolution">
-
-
+<div class="solution">
     <div class="sol1"> 
         
         <img src="images/groupwalk.jpg" alt="pictureinbio" class="picture"> <br>
@@ -183,14 +290,14 @@
         Tap to school is a fintech technology where these children are able to wear wristbands that are equipped with funds that can be used as virtual fares for their commute to school. What they need to do is to flag down one of our select matatu partners, get on board and be transported to the nearest bus stop near their school with a base fare per day. Parents are able to recharge these wristbands once the funds are depleted, depending on the school calendar.
     </p> 
     </div>
-
+</div>
 
 
 </section>
 
 <section id="theimpact">
 
-    <div class="part1">
+    <div class="impact">
 
         <div class="impact0">
             
@@ -220,10 +327,10 @@
 
 <section id="tap2school">
 
-<div class="part2">
+<div class="tap2schools">
 
    
-    <div class="impact">
+    <div class="tap1">
             <h1>Tap 2 School</h1>
 
             <p>
@@ -234,7 +341,7 @@
             </p>
    
     </div>
-    <div class="tap2School">
+    <div class="tap2">
         
 
         <img src="images/KCSE.jpg" alt="pictureinbio" class="picture"> <br>
@@ -253,7 +360,11 @@
             <h1>Get Involved</h1>
             <form action="https://formspree.io/f/mwkyobdb" method="post">
 
-                <label for="fullname">Full Name</label> <br>
+                <label for="firstname">First Name</label> <br>
+                <input type = "text" id="fullname" name="fullname"> <br>
+
+
+                <label for="lastname">Last Name</label> <br>
                 <input type = "text" id="fullname" name="fullname"> <br>
 
                 <label for="email">Email</label> <br>
@@ -270,9 +381,8 @@
                     <option value="both">both</option>
                 </select> <br>
                 <label for="more">Tell us more about yourself</label> <br>
-            
-                <textarea name="more" id="more"></textarea> <br>
-            
+                 <textarea name="more" id="more"></textarea> <br>
+                                                                                
                 <input type="submit" value="send Feedback"> <br>
             
             </form>
@@ -280,16 +390,36 @@
     </div>
 </section>
 <section id="donate">
-        <div>
-            <h1>Donate</h1>
+
+    <h1>Donate</h1>
 
             <p>The success of this project depends on the generosity of our donors. The funds will be used to recharge wrist bands for students who are in dire need of the funding. We grateful for your commitment to ensure that every child gets a well rounded education by easing travel means. Thank you for your support </p>
 
-            <a href="M-pesa">M-pesa</a> |
-            <a href="Credit">Credit/Debit</a> |
-            <a href="Venmo">Venmo</a> |
-            <a href="CashApp">Cashapp</a> |
-            <a href="gofundme">Go Fund me</a> |
+        <div class="donate">
+            
+            <div class="donate1">
+                <a href="M-pesa">M-pesa</a> <br>
+                <i class="fa fa-money" aria-hidden="true"  style="font-size: 7em" ></i> 
+            </div>
+            <div class="donate1">
+                <a href="Credit">Credit/Debit</a> <br>
+                <i class="fa fa-credit-card-alt" aria-hidden="true" style="font-size: 7em;"></i>
+
+            </div>
+           <div class="donate1">
+            <a href="Venmo">Venmo</a> <br>
+            <i class="fa fa-qrcode" aria-hidden="true" style="font-size: 7em"></i>
+           </div>
+            
+           <div class="donate1">
+            <a href="CashApp">Cashapp</a> <br>
+            <i class="fa fa-qrcode" aria-hidden="true" style="font-size: 7em"></i>
+           </div>
+            <div class="donate1">
+                <a href="gofundme">Go Fund me</a> <br>
+                <i class="fa fa-qrcode" aria-hidden="true" style="font-size: 7em"></i>
+            </div>
+            
            
         </div>
 </section>
