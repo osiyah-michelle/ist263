@@ -54,7 +54,7 @@ ul {
         height:200px;
         overflow:hidden;
       }
-      div.slide-up h1 {
+      div.slide-up p {
         animation: 3s slide-up;
         margin-top:0%;
         color: yellow;
@@ -75,7 +75,7 @@ ul {
         }
       }
  
-      #animate1{
+      .slide-up{
 
         background-image: url(../images/walking-to-school-2013.jpg);
     }
