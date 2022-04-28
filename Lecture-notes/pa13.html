@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Right () 
+        {
+
+            document.getElementById("right").innerHTML = "Your answer was Correct. Good Job";
+            document.getElementById("changepagecol").style.backgroundColor = 'green'
+        }
+
+        function Wrong () 
+        {
+
+            document.getElementById("wrong").innerHTML = "Your answer was Wrong.  Try again";
+            document.getElementById("changepagecol").style.backgroundColor = 'red'
+        }
+
+
+
+    </script>
+</head>
+<body id="changepagecol">
+    <p>
+        What is the value of 5 * 5?
+    </p>
+
+    <p id="right" onclick="Right();">25</p> 
+    <p id="wrong" onclick = "Wrong();">52</p> 
+
+    
+</body>
+</html>
