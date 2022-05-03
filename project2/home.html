@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="stylesproject.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Tamil&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0036a784f4.js" crossorigin="anonymous"></script>
+
+<script>
+    function popup() {
+        alert ('You are leaving this page to make a donation. We appreciate your generous contribution towards this course. THANK YOU for your continued support.')
+    }
+
+    function dataoff() {
+      
+        document.getElementById('issuedetails').style.display = 'none';
+        document.getElementById('solutiondetails').style.display = 'none'
+    }
+   
+    function dataon()
+    {
+
+        document.getElementById('issuedetails').style.display = 'block';
+        document.getElementById('solutiondetails').style.display = 'block';
+    }
+
+    
+    
+</script>
+    
+</head>
+<body onload="dataoff();">
+     <!--
+    <nav class="nav1">
+        <a href="#theissue">Issue</a> |
+        <a href="#thesolution">Solution</a> |
+        <a href="#tap2school">Tap 2 School</a>
+        <a href="#theimpact">Impact</a> |
+        <a href="#getinvolved">Get Involved</a> |
+        <a href="#donate">Donate</a>|
+    </nav>
+-->
+
+        <ul>
+        <li><a href="#theissue">Issue</a> </li>
+        <li> <a href="#thesolution">Solution</a> </li>
+        <li> <a href="#tap2school">Tap 2 School</a> </li>
+        <li> <a href="#theimpact">Impact</a> </li> 
+        <li><a href="#getinvolved">Get Involved</a></li>
+        <li> <a href="#donate">Donate</a></li>
+        </ul>
+
+<section id="slide">
+    
+    <div class="slide-up">
+       <!-- <p><b>Tap 2 School </b></p> -->
+        <p>Accessing education shouldn't be a privilege</p>
+    </div>
+
+</section>
+
+
+<section id="theissue">
+
+    <h1>The Issue</h1>
+
+    <div>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/LjYh6NAn8CI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+    </div>
+
+    <div id="shorterissue">
+
+        <div id="shorterissue1" onclick="dataoff(); dataon();"> 
+            <i class="fa-solid fa-money-bill-1-wave" style="font-size: 4em;"></i>
+            <p><b>Lack of funding</b></p>
+            <p><i>(Click to learn more)</i></p>
+        </div>
+        <div id="shorterissue2" onclick="dataoff(); dataon();" > 
+            <i class="fa-solid fa-road" style="font-size: 4em;"></i>
+            <p><b>Students trek long distances</b></p> 
+            <p><i>(Click to learn more)</i></p>
+        </div>
+        <div id="shorterissue3" onclick="dataoff(); dataon();"> 
+            <i class="fa-solid fa-child-rifle" style="font-size: 4em;"></i>
+            <p><b>Safety concern for children</b></p>
+            <p><i>(Click to learn more)</i></p>
+        </div>
+    </div>
+      
+    <div id="issuedetails">
+       
+        <p> 
+            Many children in Africa are desperate to go to school and learn how to read and write. But most of the students cannot because they lack funding. With parents already burdened with school fees, parents have to reprioritize the family needs.
+        </p>
+
+        <p>
+            To bring this matter closer home, most kenyan children have to walk long distances to get to school and usually very early in the morning. Our children trek long distances for a long period of time and by the time they arrive at school, they are exhausted even before the day starts for learning. It is also crucial to understand that they make the same way back home and will get home when it's late. 
+            It becomes a safety concern of when and where a child is away from a parent's sight. From the early morning commute, to the late evening commute, alot can happen especially with the rise of sexual predators, human trafficking and children getting lost on their way back home.
+        </p>
+
+        <p>
+            Most parents are also skeptical that the funds they give their children for bus fares will be lost during play or the students decide to use the funds alternatively for snacks or toys. 
+
+        </p>
+    </div> 
+
+        <!---
+        <div class="issue2">
+        <table style="width: 100%;"> 
+            <caption class="caption">Statistics : Student commute means to School</caption>
+            <tr class="columns">
+                <th>Children Under 15 Years Age</th>
+                <th>Commute Routes</th>  
+                
+            </tr>
+            <tr class="evenrow">
+                <td>Pre-K</td>
+                <td>Bus</td> 
+            </tr>
+            <tr>
+                <td>Middle School</td>
+                <td>Foot</td>
+            </tr>
+            <tr >
+                <td>Upper Primary</td>
+                <td>Foot, Bus</td>     
+            </tr>
+        </table>
+        </div>
+    -->
+
+</section>
+
+
+<section id="thesolution">
+
+    <h1>The Solution</h1>
+
+   <div id="solutionVI"> 
+
+    <div id="shortersolution" onclick="dataoff(); dataon();">
+        <div id="shortersolution1">
+            <i class="fa-solid fa-microchip" style="font-size: 4em;"></i>
+            <p><b>Technology Used</b></p>
+            <p>  NFC/RFID & GPS locator.</p>
+            <p><i>(Click here to learn more)</i></p>
+        </div>
+
+        <div id="shortersolution3" onclick="dataoff(); dataon();">
+            <i class="fa-solid fa-comment-sms" style="font-size: 4em;"></i>
+            <p><b>Mobile Money</b></p>
+            <p>M-pesa</p>
+            <p><i>(Click here to learn more)</i></p>
+
+    
+        </div>
+        <div id="shortersolution2" onclick="dataoff(); dataon();">
+            <i class="fa-solid fa-arrows-spin" style="font-size: 4em;"></i>
+            <p><b>Step by step Process</b></p>
+            <p><i>(Click here to learn more)</i></p>
+        </div>
+    </div>
+
+    <div id="video2"> 
+            
+        <!--  <img src="images/silicone_wristcoin_wristband.png" alt="pictureinbio" class="picture"> <br>
+      -->
+      <div>
+      <iframe width="80%" height="70%" style="border: 4px solid white" src="https://www.youtube.com/embed/Gh2KRiSbGGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+      <div>
+
+        <p><b>Near field Communication / Radio Frequency Identification</b></p>
+        <p>
+          Essentially it’s a way to transfer data between devices wirelessly without the need for an internet connection.  It is a short-range wireless technology that makes your smartphone, tablet, wearables, payment cards, and other devices even smarter. Near-field communication is the ultimate in connectivity.
+        </p>
+  
+      </div>
+     
+    </div>
+
+   </div>
+
+        <div id="solutiondetails">
+       
+        <p>
+            Tap to school utilizes a fintech technology (NFC/RFID) and gps locator where children are able to wear wristbands that are equipped with funds that can be used as virtual fares for their commute to school. Parents are able to recharge these wristbands once the funds are depleted, depending on the school calendar. To ease a parents mind as well, these wrist watches have been equiped with real time offline GPS cordinates that can be pinned to display the child's location.
+        </p>
+
+            <p>The process at this time is quite grainy, however we have 2 approaches on the matter: </p>
+        <p>
+            What they need to do is to flag down one of our select matatu partners, get on board and be transported to the nearest bus stop near their school with a base fare per day. This means that the commute wrristbands can only be charged twice a day, for the to and from commute. 
+        </p> 
+
+        <p>
+            The other alternative is to partner with regional churches that have buses/vans. Each van/bus will have a permanent transit route that covers 4 - 5 schools in the region. These buses/vans will run at limited times 6am - 10am, and 3pm - 5pm. What the students need to do in this case is wait for the bus/van at their assigned times. To reduce the confusion all wristbands will be color coded, coresponding to the bus/van route. So before a child boards a van the drivers have to ensure that the wrist bands corespond with the route color code. 
+
+        </p>
+        </div>
+    
+</section>
+
+
+<section id="tap2school">
+    <h1>Tap 2 School</h1>
+    <div class="tap2schools">
+        <div class="tap1">
+                <p>
+
+                Tap4School is a digital mobile platform that uses cutting edge FinTech to enable public primary school children to access school easily and on time.
+                Parents pay for the subsidized fares using mobile money. 
+
+                </p>
+    
+        </div>
+        <div class="tap2">
+            
+
+            <img src="images/KCSE.jpg" alt="pictureinbio" class="picture"> <br>
+
+            </div>  
+    </div>
+</section>
+
+<section id="theimpact">
+    <div class="impact">
+
+        <div class="impact0">
+            
+    
+                <img src="images/groupwalk.jpg" alt="pictureinbio" class="picture"> <br>
+
+        </div>
+
+        <div class="impact1">
+                <h1>Impact</h1>
+        <p>
+            Students are able to make smooth commutes to and from school
+        <p>
+
+        <p>
+            It is safe
+        </p>
+
+        <p>
+            Funds are well utilized and not lost
+        </p>
+
+        </div>
+    </div>
+</section>
+
+<section id="getinvolved">
+    <div class="getinvolved">
+
+        <div class="form1">
+            <h1>Get Involved</h1>
+            <form action="https://formspree.io/f/moqrppzz" method="post">
+
+                <label for="firstname">First Name</label> <br>
+                <input type = "text" id="firstname" name="fullname"> <br>
+
+
+                <label for="lastname">Last Name</label> <br>
+                <input type = "text" id="lastname" name="fullname"> <br>
+
+                <label for="email">Email</label> <br>
+                <input type = "email" id="email" name="email"> <br>
+
+                <label for="phone">Phone Number</label> <br>
+                <input type = "tel" id="phone" name="tel"> <br>
+
+                <label for="time">How would you like to be involved with us</label>
+                <select id="time" name="time">
+                    <option value="pick">Select</option>
+                    <option value="Volunteer Opportunities">Volunteer Opportunities</option>
+                    <option value="GetUpdates">Stay In Touch</option>
+                    <option value="both">both</option>
+                </select> <br>
+                <label for="more">Tell us more about yourself</label> <br>
+                 <textarea name="more" id="more"></textarea> <br>
+                                                                                
+                <input type="submit" value="send Feedback"> <br>
+            
+            </form>
+        </div>
+    </div>
+</section>
+
+<section id="donate">
+
+    <h1>Donate</h1>
+
+            <p>The success of this project depends on the generosity of our donors. The funds will be used to recharge wrist bands for students who are in dire need of the funding. We grateful for your commitment to ensure that every child gets a well rounded education by easing travel means. Thank you for your support </p>
+
+        <div class="donate">
+            
+            <div class="donate1" onclick="popup();">
+              <!---  <a href="M-pesa">M-pesa</a> <br> -->
+
+                <i class="fa fa-money" aria-hidden="true"  style="font-size: 8em" onclick="popup();"></i> <br>
+                <p onclick="popup();">M-PESA</p>
+
+            </div>
+            <div class="donate1" onclick="popup();">
+               <!-- <a href="Credit">Credit/Debit</a> <br> -->
+                <i class="fa fa-credit-card-alt" aria-hidden="true" style="font-size: 8em;" onclick="popup();"></i> <br>
+                <p onclick="popup();" >Credit / Debit</p>
+
+            </div>
+           <div class="donate1" onclick="popup();">
+            <!-- <a href="Venmo">Venmo</a> <br> -->
+
+            <i class="fa fa-qrcode" aria-hidden="true" style="font-size: 8em" onclick="popup();"></i> <br>
+            <p onclick="popup();">Venmo/ CashApp</p>
+           </div>
+            
+          
+            <div class="donate1" onclick="popup();">
+                <!-- <a href="gofundme">Go Fund me</a> <br> -->
+                <i class="fa fa-qrcode" aria-hidden="true" style="font-size: 8em" onclick="popup();"></i> <br>
+                <p onclick="popup();">Go-FundMe</p>
+            </div>
+            
+           
+        </div>
+</section>
+
+</body>
+
+</html>

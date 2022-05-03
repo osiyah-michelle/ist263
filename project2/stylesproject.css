@@ -1,0 +1,404 @@
+/*
+nav  {
+    
+
+     background-color: transparent;
+     padding: 10px; 
+     margin-bottom: 20px;
+     text-align: end;
+     border: black solid 1px; border-radius: 0.5em;
+     display: inline;
+     text-decoration: none;
+    
+    
+ }
+ */
+
+/*
+Navigation
+
+*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+
+ /* slide up section*/
+ 
+ div.slide-up {
+        width:100%;
+        overflow:hidden;
+      }
+  
+      div.slide-up p {
+        animation: 10s slide-up;
+        margin-top:20%;
+        color: white;
+        font-size: 5em;
+        text-align: center;
+        background: black;
+      }
+      
+      @keyframes slide-up {
+        from {
+          margin-left: 100%;
+          width: 300%; 
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+
+ #slide {
+  
+    background-image: url("../images/walking-to-school-2013.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+ }   
+      
+  .slide-up {
+  /* height: 1050px;*/
+  height:  fit-content;
+
+  }
+ 
+/*paragraphs*/
+    
+ p {
+        
+         font-family: 'Anek Tamil', sans-serif;
+   }
+
+
+  
+#theissue{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+      
+  }
+
+
+/* table */
+     table
+     { height: 100%;
+         
+     border-collapse: collapse;
+     border: 1px solid black;
+     text-align: center;
+
+     }
+     td, th {border: 1px solid black; 
+        padding: 15px;
+        text-align: left;}   
+
+
+  tr:hover {background-color: white;}
+
+
+
+  /*Forms*/
+
+  input
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input:focus {
+
+    background-color: lightblue;
+}
+textarea
+{
+
+    transition: width 0.4s ease-in-out;
+    width: 80%;
+    height: 200px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    }
+
+textarea:focus
+{
+
+    width: 100%
+}
+
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 30%;
+ align-items: center;
+ 
+}
+
+
+
+  #slide, #theissue, #thesolution, #theimpact, #tap2school, #donate{
+
+   
+    padding: 10px;
+    
+    /*height: 95vh; */
+    height: fit-content;
+   
+  }
+  #getinvolved 
+  {
+    
+    padding: 10px;
+ 
+    /*height: 120vh;*/
+    height: fit-content;
+
+  }
+
+
+/*Donate*/
+
+body p{
+  line-height: 1.8;
+}
+
+.donate
+{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#donate, #thesolution, #theimpact {
+  background-color: rgb(128, 240, 16, 0.5);
+}
+
+#theissue, #tap2school, #getinvolved {
+background-color: rgb(215, 248, 29, 0.5);
+
+}
+
+#theissue div {
+
+  padding: 10px;
+  margin: 10px;
+}
+.donate div{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 0.5em
+}
+
+.donate1{
+
+  /*  transition: width 2s linear 1s; */
+    background-color: rgb(4, 240, 4);
+      width: 180px;
+    height: fit-content;
+    align-content: center;
+}
+
+.donate1 {
+  width: 250px;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 0 25px 30px 0 rgba(0, 0, 0, 0.2), 0 12px 30px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.donate1:hover
+{
+    /* width: 300px; */
+    background-color:  rgb(100, 250, 100);
+   
+}
+
+
+#thesolution div {
+
+  padding: 10px;
+  margin: 10px;
+
+}
+
+#solutionVI {
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#shortersolution{
+  flex: 1;
+}
+
+#video2{
+  flex: 2;
+  padding-top: 20px;
+}
+#shortersolution1, #shortersolution2,  #shortersolution3
+{
+  width: 250px;
+  height: 200px;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 0 25px 30px 0 rgba(0, 0, 0, 0.2), 0 12px 30px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  align-items: center;
+
+
+}
+
+#shortersolution1:hover, #shortersolution2:hover, #shortersolution3:hover
+{
+  /* width: 300px; */
+  background-color:  rgb(100, 250, 100);
+ 
+  justify-content: space-evenly;
+}
+
+#shorterissue {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+#shorterissue1, #shorterissue2, #shorterissue3 {
+  width: 250px;
+  height: 200px;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 0 25px 30px 0 rgba(0, 0, 0, 0.2), 0 12px 30px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  align-items: center;
+
+}
+
+#shorterissue1:hover, #shorterissue2:hover, #shorterissue3:hover
+{
+    /* width: 300px; */
+    background-color:  rgb(100, 250, 100);
+    justify-content: space-evenly;
+}
+.issue, .impact, .tap2schools, .donate
+{
+    
+    display: flex;
+    flex-wrap: wrap;
+
+}.issue div, .impact div, .tap2schools div, .donate div{
+    padding: 10px;
+}
+
+#theimpact p{
+
+  animation: 10s slide-up;
+  margin-top:20%;
+  color: black;
+  font-size: 1em;
+  text-align: left;
+
+}
+.issue1 
+{
+flex: 2;
+}
+
+.sol0{
+
+    flex: 2
+}
+
+.tap1{
+
+    flex: 2;
+}
+
+.picture {
+    max-width: 100%;
+    justify-content: center;}
+
+  
+
+     /*
+     .issue {
+         flex: 1; font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+     */
+
+
+     @media only screen and (max-width: 600px)
+         {
+             body {background-color: orange;}
+             
+             section div{
+
+                 flex-wrap: wrap;
+             }
+
+             
+
+             section{
+               max-width: 100%;
+               max-height: fit-content;
+               
+             }
+             
+             .picture {
+                 max-width: 100%;
+             }
+             .banner{display: none;}
+
+             .donate1{
+
+                 transition: none;
+             }
+             
+
+         }
+
+
+
