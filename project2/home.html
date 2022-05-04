@@ -32,6 +32,44 @@
     
     
 </script>
+
+
+<style>
+
+#logo{
+    display: none;
+    width: 80px;
+
+}
+
+       
+@media only screen and (max-width: 600px)
+        {
+
+            #logo {display: block;
+            }
+            #navigation li a{display: block;}
+
+            #navigation {display: none;
+            }
+        }
+
+</style>
+
+<script>
+
+function toggleNav ()
+            {
+                if (document.getElementById("navigation").style.getPropertyValue("display") == 'block'){
+
+                    document.getElementById("navigation").style.display = "none";
+
+                    } else {
+
+                document.getElementById("navigation").style.display = "block";
+            }
+        }
+</script>
     
 </head>
 <body onload="dataoff();">
@@ -46,14 +84,18 @@
     </nav>
 -->
 
-        <ul>
+        <img src="images/C7570DCA-43D6-40AC-9C62-2610A07588C2.png" alt="logo icon" id="logo" onclick="toggleNav();">
+
+        <ul id="navigation">
         <li><a href="#theissue">Issue</a> </li>
         <li> <a href="#thesolution">Solution</a> </li>
-        <li> <a href="#tap2school">Tap 2 School</a> </li>
+       
         <li> <a href="#theimpact">Impact</a> </li> 
         <li><a href="#getinvolved">Get Involved</a></li>
         <li> <a href="#donate">Donate</a></li>
         </ul>
+
+    
 
 <section id="slide">
     
@@ -172,7 +214,7 @@
         <!--  <img src="images/silicone_wristcoin_wristband.png" alt="pictureinbio" class="picture"> <br>
       -->
       <div>
-      <iframe width="80%" height="70%" style="border: 4px solid white" src="https://www.youtube.com/embed/Gh2KRiSbGGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="100%" height="315" style="border: 4px solid white" src="https://www.youtube.com/embed/Gh2KRiSbGGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
       <div>
 
@@ -209,48 +251,63 @@
 
 <section id="tap2school">
     <h1>Tap 2 School</h1>
-    <div class="tap2schools">
-        <div class="tap1">
+
+    <div id="tap2schools">
+
+        
+
+        <div id="tap1">
                 <p>
 
                 Tap4School is a digital mobile platform that uses cutting edge FinTech to enable public primary school children to access school easily and on time.
                 Parents pay for the subsidized fares using mobile money. 
 
                 </p>
-    
         </div>
-        <div class="tap2">
-            
 
-            <img src="images/KCSE.jpg" alt="pictureinbio" class="picture"> <br>
+        <div id="tap2">
+            <img src="images/silicone_wristcoin_wristband.png" alt="pictureinbio" class="picture"> <br>
 
-            </div>  
+        </div>  
+       
     </div>
 </section>
 
 <section id="theimpact">
+
+    <h1>Impact</h1>
     <div class="impact">
 
         <div class="impact0">
             
     
-                <img src="images/groupwalk.jpg" alt="pictureinbio" class="picture"> <br>
+             <!--  <img src="images/groupwalk.jpg" alt="pictureinbio" class="picture"> <br> --> 
+                <img src="images/KCSE.jpg" alt="pictureinbio" class="picture"> <br>
 
         </div>
 
         <div class="impact1">
-                <h1>Impact</h1>
-        <p>
-            Students are able to make smooth commutes to and from school
-        <p>
+              
 
-        <p>
-            It is safe
-        </p>
+        <div id="impactdiv">
+            <div id="impactdiv1">
+                <p>
+                    <b>Students make smooth commutes to and from school</b>
+                <p>
+            </div>
 
-        <p>
-            Funds are well utilized and not lost
-        </p>
+            <div id="impactdiv2">
+                <p>
+                   <b> It is safe</b>
+                </p>
+            </div>
+
+            <div id="impactdiv3">
+                <p>
+                   <b> Funds are well utilized and not lost</b>
+                </p>
+            </div>
+        </div>
 
         </div>
     </div>
@@ -331,6 +388,27 @@
            
         </div>
 </section>
+
+
+<footer>
+
+    <div id="footerdiv">
+
+        <div>
+            <p>Author: Michelle Osiyah<br>
+                <p>Final Class Project IST 263</p>
+                <P>Spring 2022</P>
+                
+            <a href="mailto:maosiyah@syr.edu">maosiyah@syr.edu</a></p>
+        </div>
+       <div>
+        <img src="images/C7570DCA-43D6-40AC-9C62-2610A07588C2.png" width="200px" height="200px" alt="pictureinbio" class="picture"> <br>
+       </div>
+       
+    </div>
+    
+  </footer>
+  
 
 </body>
 
