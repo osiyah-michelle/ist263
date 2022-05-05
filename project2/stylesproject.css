@@ -47,6 +47,11 @@ ul {
     background-color: #111;
   }
 
+  #logo{
+    display: none;
+    width: 80px;
+
+}
 
  /* slide up section*/
  
@@ -399,6 +404,10 @@ background-color: rgb(215, 248, 29, 0.5);
    justify-content: space-evenly;
   }
 
+  iframe {
+    width: 100%;
+  
+    }
      /*
      .issue {
          flex: 1; font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -408,7 +417,7 @@ background-color: rgb(215, 248, 29, 0.5);
 
      @media only screen and (max-width: 600px)
          {
-             body {background-color: orange;}
+             body {background-color: white;}
              
              section div{
 
@@ -428,6 +437,13 @@ background-color: rgb(215, 248, 29, 0.5);
              .donate1{
 
                  transition: none;
+             }
+
+             #logo {display: block;
+             }
+             #navigation li a{display: block;}
+ 
+             #navigation {display: none;
              }
              
 

@@ -273,7 +273,10 @@ flex: 2;
                  flex-wrap: wrap;
              }
 
-             
+             section{
+               height: 100%;
+               
+             }
              
              .picture {
                  max-width: 80%;
