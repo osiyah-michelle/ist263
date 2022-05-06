@@ -100,7 +100,7 @@ ul {
   #skip{ /* used with ids*/
     position: absolute;
     left: -999px;
-    background-color: orangered;
+    background-color: black;
     padding: 5px;
 }
 
