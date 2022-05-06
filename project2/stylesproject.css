@@ -406,6 +406,7 @@ background-color: rgb(215, 248, 29, 0.5);
 
   iframe {
     width: 100%;
+    border-width: 0px;
   
     }
      /*
