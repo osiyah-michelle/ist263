@@ -414,6 +414,11 @@ background-color: rgb(215, 248, 29, 0.5);
      }
      */
 
+     .picture1 {
+      width: 200px; 
+      height: 200px;
+     }
+
 
      @media only screen and (max-width: 600px)
          {
