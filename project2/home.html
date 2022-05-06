@@ -58,15 +58,16 @@
     </nav>
 -->
 
-        <img src="images/C7570DCA-43D6-40AC-9C62-2610A07588C2.png" alt="logo icon" id="logo" onclick="toggleNav();">
+        <img src="images/C7570DCA-43D6-40AC-9C62-2610A07588C2.png" alt="tap to school logo icon" id="logo" onclick="toggleNav();">
 
         <ul id="navigation">
-        <li><a href="#theissue">Issue</a> </li>
-        <li> <a href="#thesolution">Solution</a> </li>
+        <li> <a href="#theissue" id="skip">Skip to content</a></li>
+        <li><a href="#theissue" tabindex="1">Issue</a> </li>
+        <li> <a href="#thesolution" tabindex="2">Solution</a> </li>
        
-        <li> <a href="#theimpact">Impact</a> </li> 
-        <li><a href="#getinvolved">Get Involved</a></li>
-        <li> <a href="#donate">Donate</a></li>
+        <li> <a href="#theimpact" tabindex="3">Impact</a> </li> 
+        <li><a href="#getinvolved" tabindex="4">Get Involved</a></li>
+        <li> <a href="#donate" tabindex="5">Donate</a></li>
         </ul>
 
     
@@ -240,7 +241,7 @@
         </div>
 
         <div id="tap2">
-            <img src="images/silicone_wristcoin_wristband.png" alt="pictureinbio" class="picture"> <br>
+            <img src="images/silicone_wristcoin_wristband.png" alt="silicon wrist watch model picture" class="picture"> <br>
 
         </div>  
        
@@ -256,7 +257,7 @@
             
     
              <!--  <img src="images/groupwalk.jpg" alt="pictureinbio" class="picture"> <br> --> 
-                <img src="images/KCSE.jpg" alt="pictureinbio" class="picture"> <br>
+                <img src="images/KCSE.jpg" alt="image of students in the classtoom learning" class="picture"> <br>
 
         </div>
 
@@ -295,17 +296,17 @@
             <form action="https://formspree.io/f/moqrppzz" method="post">
 
                 <label for="firstname">First Name</label> <br>
-                <input type = "text" id="firstname" name="fullname"> <br>
+                <input type = "text" id="firstname" name="fullname" alt="First name as input"> <br>
 
 
                 <label for="lastname">Last Name</label> <br>
-                <input type = "text" id="lastname" name="fullname"> <br>
+                <input type = "text" id="lastname" name="fullname" alt="Last name as input"> <br>
 
                 <label for="email">Email</label> <br>
-                <input type = "email" id="email" name="email"> <br>
+                <input type = "email" id="email" name="email" alt="email as input"> <br>
 
                 <label for="phone">Phone Number</label> <br>
-                <input type = "tel" id="phone" name="tel"> <br>
+                <input type = "tel" id="phone" name="tel" alt="telephone number as input"> <br>
 
                 <label for="time">How would you like to be involved with us</label>
                 <select id="time" name="time">
@@ -317,7 +318,7 @@
                 <label for="more">Tell us more about yourself</label> <br>
                  <textarea name="more" id="more"></textarea> <br>
                                                                                 
-                <input type="submit" value="send Feedback"> <br>
+                <input type="submit" value="send Feedback" alt="submit button to send feedback"> <br>
             
             </form>
         </div>
@@ -332,10 +333,10 @@
 
         <div class="donate">
             
-            <div class="donate1" onclick="popup();">
+            <div class="donate1" onclick="popup();" >
               <!---  <a href="M-pesa">M-pesa</a> <br> -->
 
-                <i class="fa fa-money" aria-hidden="true"  style="font-size: 8em" onclick="popup();"></i> <br>
+                <i class="fa fa-money" aria-hidden="true" style="font-size: 8em" onclick="popup();"></i> <br>
                 <p onclick="popup();">M-PESA</p>
 
             </div>

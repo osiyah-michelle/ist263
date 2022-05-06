@@ -96,6 +96,18 @@ ul {
 
   }
  
+
+  #skip{ /* used with ids*/
+    position: absolute;
+    left: -999px;
+    background-color: orangered;
+    padding: 5px;
+}
+
+#skip:focus{
+
+    left: 10px;
+}
 /*paragraphs*/
     
  p {
